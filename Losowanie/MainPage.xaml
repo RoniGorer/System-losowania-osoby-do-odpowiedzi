@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Losowanie.MainPage">
+
+    <StackLayout>
+        <Button Text="Add Person" Clicked="AddPerson_Clicked"/>
+        <Button Text="Edit Person" Clicked="EditPerson_Clicked"/>
+        <Button Text="Delete Person" Clicked="DeletePerson_Clicked"/>
+        <Button Text="Save List" Clicked="SaveList_Clicked"/>
+        <Button Text="Pick Random Person" Clicked="PickRandomPerson_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
